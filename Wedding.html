@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Nebiyu & Meryem Wedding</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fdf6f0;
+      color: #333;
+      margin: 0;
+      padding-top: 60px;
+      text-align: center;
+    }
+    h1 {
+      color: #b85c38;
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+    h2 {
+      color: #8c3b1b;
+      font-size: 1.8em;
+      margin-bottom: 10px;
+    }
+    .section {
+      margin: 40px 0;
+      padding: 20px;
+      border-top: 1px solid #e0cfc2;
+    }
+    input, textarea {
+      padding: 10px;
+      width: 90%;
+      max-width: 400px;
+      margin-top: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      padding: 10px 20px;
+      background-color: #b85c38;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    #countdown {
+      font-size: 1.5em;
+      margin-top: 20px;
+      color: #8c3b1b;
+    }
+    .logo {
+      width: 100px;
+      margin-bottom: 20px;
+    }
+    .location-details {
+      margin-top: 20px;
+      font-size: 1em;
+      line-height: 1.6;
+    }
+    .gallery img {
+      width: 100%;
+      max-width: 250px;
+      margin: 10px;
+      border-radius: 10px;
+    }
+    a {
+      color: #b85c38;
+      text-decoration: none;
+    }
+    .navbar {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: #fff4ec;
+      border-bottom: 1px solid #e0cfc2;
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      padding: 10px 0;
+      z-index: 1000;
+    }
+    .navbar a {
+      color: #b85c38;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 0.9em;
+    }
+    .navbar a:hover {
+      text-decoration: underline;
+    }
+    .quote {
+      font-style: italic;
+      color: #555;
+      margin-top: 15px;
+    }
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2em;
+      }
+      h2 {
+        font-size: 1.5em;
+      }
+      .section {
+        padding: 10px;
+      }
+      .gallery img {
+        max-width: 90%;
+      }
+      .navbar {
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <a href="#welcome">Welcome</a>
+    <a href="#story">Our Story</a>
+    <a href="#details">Event Details</a>
+    <a href="#rsvp">RSVP</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#registry">Registry</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- Logo -->
+  <img src="C:/Users/nabaa/OneDrive/Pictures/logo2.png" alt="Wedding Logo" class="logo">
+
+  <h1>NEBIYU & MERYEM WEDDING</h1>
+  <p>We are delighted to announce that our wedding will take place on <strong>December 21, 2025, in Shashemene, Oromia</p>
+  <div id="countdown" class="section"></div>
+
+  <!-- Welcome -->
+  <div class="section" id="welcome">
+    <h2>Welcome</h2>
+    <p>Welcome to our wedding website. We are delighted to share this joyful occasion with our cherished family and friends. Here, you will find all the essential information regarding our upcoming ceremony, reception, and related celebrations. We look forward to celebrating together and creating lasting memories.</p>
+  </div>
+
+  <!-- Our Story -->
+  <div class="section" id="story">
+    <h2>Our Story</h2>
+    <p>What began as a simple friendship grew quietly and steadily over time. For many years, we shared a bond rooted in mutual respect, laughter, and understanding—never imagining how deeply it would evolve. Though life kept us apart for long stretches, our connection remained strong, and the moments we did share were filled with warmth and beauty.</p>
+    <p>Eventually, friendship blossomed into love. It was not sudden, but rather a gentle unfolding—one that felt natural, enduring, and true. Despite the distance, we held onto each other with trust and affection, and today, we stand together with gratitude for the journey that brought us here.</p>
+    <p class="quote">“True friendship quietly grows into love—not through constant presence, but through unwavering presence in the heart.”</p>
+  </div>
+
+  <!-- Event Details -->
+  <div class="section" id="details">
+    <h2>Event Details</h2>
+    <p>Ceremony: <strong>9:00 AM</strong> at Nebiyu's Place: Close to Mosque</p>
+    <p>Continued at Meryem's Place <strong> starting around 12PM</p>
+    <p>Dress Code: Suit</p>
+    <div class="location-details">
+      <h3>📍 Place</h3>
+      <p><strong>Country:</strong> Ethiopia</p>
+      <p><strong>Region:</strong> Oromia</p>
+      <p><strong>City:</strong> Shashemene</p>
+      <p><strong>Sub-City:</strong> Malka Badesa</p>
+    </div>
+  </div>
+
+  <!-- RSVP -->
+  <div class="section" id="rsvp">
+    <h2>RSVP</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required><br>
+      <input type="email" placeholder="Your Email" required><br>
+      <textarea placeholder="Message or dietary preferences"></textarea><br>
+      <button type="submit">Send RSVP</button>
+    </form>
+  </div>
+
+  <!-- Gallery -->
+  <div class="section gallery" id="gallery">
+    <h2>Gallery</h2>
+    <p>Here are some moments from our journey.</p>
+    <img src="C:/Users/nabaa/OneDrive/Pictures/Milkiikoo.jpg" alt="Photo 1">
+    <img src="C:/Users/nabaa/OneDrive/Pictures/milkii1.jpg" alt="Photo 2">
+    <img src="C:/Users/nabaa/OneDrive/Pictures/us.jpg" alt="Photo 3">
+	<img src="C:/Users/nabaa/OneDrive/Pictures/1.jpg" alt="Photo 4">
+	<img src="C:/Users/nabaa/OneDrive/Pictures/cake.jpg" alt="Photo 5">
+  </div>
+
+  <!-- Registry -->
+<div class="section" id="registry">
+  <h2>Registry</h2>
+  <p>Your presence is our greatest gift. But if you'd like to contribute, please fill out the form below:</p>
+  <iframe src="https://docs.google.com/forms/d/1aA5MTJxkyREWxLPG14SImm2_j_bSClsHa0dcY2yjM0g/edit#settings" width="100%" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+</div>
+
+  <!-- Contact -->
+  <div class="section" id="contact">
+    <h2>Contact</h2>
+    <p>If you have any questions, feel free to reach out:</p>
+    <p>Email: <a href="mailto:wedding@nebiyuandmeryem.com">wedding@nebiyuandmeryem.com</a></p>
+    <p>Phone: +251934751902</p>
+  </div>
+
+  <!-- Countdown Script -->
+  <script>
+    const weddingDate = new Date("2025-12-21T00:00:00");
+    const countdown = document.getElementById("countdown");
+
+    function updateCountdown() {
+      const now = new Date();
+      const diff = weddingDate - now;
+      const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+      countdown.textContent = `Only ${days} days to go!`;
+    }
+
+    updateCountdown();
+    setInterval(updateCountdown, 86400000); // Update daily
+  </script>
+
+</body>
+</html>
